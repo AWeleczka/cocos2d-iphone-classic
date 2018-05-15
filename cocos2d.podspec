@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
     :git => "https://github.com/AWeleczka/cocos2d-iphone-classic.git",
     :tag => "#{s.version}"
   }
-  s.source_files = "cocos2d/*.{h,m}"
+  s.source_files = "**/*.{h,m}"
 end
