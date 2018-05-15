@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "cocos2d-iphone-classic"
+  s.name = "cocos2d"
   s.version = "2.2"
   s.summary = "https://github.com/AWeleczka/cocos2d-iphone-classic"
   s.homepage = "https://github.com/AWeleczka/cocos2d-iphone-classic"
