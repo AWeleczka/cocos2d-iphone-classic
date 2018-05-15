@@ -20,5 +20,11 @@ Pod::Spec.new do |s|
     :git => "https://github.com/AWeleczka/cocos2d-iphone-classic.git",
     :tag => "#{s.version}"
   }
-  s.source_files = "cocos3d"
+  s.source_files = "cocos2d/*.{h,m}"
+  s.subspec 'platforms' do |sp|
+    sp.source_files = 'cocos2d/Plattforms/**/*.{h,m}'
+  end
+  s.subspec 'support' do |ss|
+    ss.source_files = 'cocos2d/Support/*.{h,m}'
+  end
 end
