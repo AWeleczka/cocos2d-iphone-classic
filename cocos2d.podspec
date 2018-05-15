@@ -22,12 +22,12 @@ Pod::Spec.new do |s|
   }
   s.source_files = "cocos2d/*.{h,m}"
   s.subspec 'Platforms' do |sp|
-    sp.source_files = 'cocos2d/Plattforms/*.{h,m}'
+    sp.source_files = 'cocos2d/Platforms/*.{h,m}'
     sp.subspec 'Mac' do |spm|
-      spm.source_files = 'cocos2d/Plattforms/Mac/*.{h,m}'
+      spm.source_files = 'cocos2d/Platforms/Mac/*.{h,m}'
     end
     sp.subspec 'iOS' do |spi|
-      spi.source_files = 'cocos2d/Plattforms/iOS/*.{h,m}'
+      spi.source_files = 'cocos2d/Platforms/iOS/*.{h,m}'
     end
   end
   s.subspec 'Support' do |ss|
